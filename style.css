@@ -1,0 +1,133 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("img/gym.jpg");
+    /* height: 5555px; */
+    /* background-repeat:space; */
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    scroll-behavior: smooth ;
+
+}
+.left{
+    /* background-color: rgb(26, 31, 121); */
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    /* margin: 12px; */
+    text-align: center;
+    padding: 4px 18px;
+    line-height: 11px;
+}
+.left img {
+    width: 88px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+.left div{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.mid{
+    /* background-color: rgb(7, 103, 20); */
+    /* border: 2px solid red; */
+    display: block;
+    width: 38%;
+    margin: 20px auto 20px auto;
+    
+}
+
+.navbar{
+    display: inline-block;
+    
+}
+.navbar li {
+    display: inline-block;
+    font-size: 21px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.navbar li a:hover,.navbar li a.active{
+ text-decoration: underline;
+ color: gray;
+}
+
+.right{
+    /* background-color: rgb(120, 8, 37); */
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    /* margin: 12px; */
+    padding: 12px 11px;
+}
+.btn{
+    margin: 0px 5px;
+    background-color: black;
+    color: white;
+    padding: 5px 12px;
+    font-size: 15px;
+    border: 2px solid rgb(197, 196, 196);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Baloo 2', cursive;
+}
+.btn:hover{
+    background-color: rgb(104, 102, 102);
+}
+.btn:active{
+    color: rgb(0, 255, 17);
+    /* font-size: 15.01px; */
+    /* padding: 2px 10px; */
+}
+
+
+
+
+.container{
+    border: 2px solid white;
+    margin: 130px  auto 30px auto;
+    padding: 20px 100px ;
+    border-radius: 15px;
+    width: 33%;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    font-size: 18px;
+    margin: 5px auto;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: 'Baloo 2', cursive;
+}
+.container button{
+    width: 400px;
+    margin: 18px 10px;
+    font-size: 18px;
+}
+
+.foot{
+background-color: gray;
+border: 2px solid black;
+padding: 20px 50px;
+margin: auto;
+text-align: center;
+color: black;
+}
