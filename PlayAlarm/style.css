@@ -1,0 +1,179 @@
+/* *{
+    background-color: black; 
+} */
+.windowScreen {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #3995d7;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.dark-navbar {
+    background-color: #1a1b1c;
+}
+
+.Tool-1 {
+    cursor: pointer;
+}
+
+.DarkMood-nav {
+    background-color: black;
+    color: white;
+}
+
+.mainBox {
+    height: 80%;
+    width: 100%;
+    position: fixed;
+}
+
+.aside1 {
+    background-color: #1a1b1c;
+    color: white;
+    height: 100vh;
+
+}
+
+.aside2 {
+    width: 100%;
+    height: 70%;
+}
+
+.alarm-container {
+    margin-top: 100px;
+}
+
+.displayTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: clockicons, sans-serif;
+    font-size: 56px;
+    margin: 10px;
+
+}
+
+.am-pm-labal {
+    position: relative;
+    top: 15px;
+    left: 9px;
+    z-index: -1;
+}
+
+.modal-header {
+    background-color: #007efc;
+    color: white;
+}
+
+.modal-header-playAlarm {
+    background-color: #b51919;
+    color: white;
+}
+
+.modal-header-style {
+    background-color: #1a1b1c;
+}
+
+.modal-body-style,
+.modal-footer-style {
+    background-color: #000000de;
+}
+
+#PlayAlarmModelClose {
+    background-color: white;
+}
+
+.btn-close-style {
+    background-color: #ffffff;
+}
+
+.AlarmTimeSelect {
+    /* border: 2px solid red; */
+    height: 41px;
+    width: 200px;
+    background-color: #efefef;
+    color: #1a1b1c;
+    margin: 5px 0px;
+}
+
+.SelectSound {
+    /* margin: px; */
+    background-color: #efefef;
+    padding: 2px;
+}
+
+#btn-audio-play {
+    color: black;
+}
+
+
+#audio-play-icon:hover {
+    color: rgb(38, 0, 255);
+}
+
+#edt-audio {
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.SelectTitle {
+    background-color: #efefef;
+    padding: 2px;
+}
+
+.panel {
+    background-color: rgba(176, 168, 168, 0.303);
+    border: 2px solid rgb(209, 205, 205);
+
+}
+
+.panel-Dark {
+    background-color: #1a1b1c;
+    border: none;
+}
+
+.circleBox {
+    padding: 15px;
+    border: 2px solid rgb(9, 151, 80);
+    border-radius: 50%;
+    color: red;
+    margin: 5px;
+}
+
+.AlarmTitleDisplay {
+    margin: 10px;
+    font-size: large;
+}
+
+.AlarmTimeDisplay {
+    margin: 10px;
+    font-size: large;
+}
+
+.aside3 {
+    background-color: #1a1b1c;
+    color: white;
+    width: 15%;
+    height: 100vh;
+}
+
+.MenuBar {
+    height: 80px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #c0c4c3;
+    color: black;
+    font-weight: bold;
+}
